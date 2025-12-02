@@ -29,7 +29,8 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
             NLP-based coaching and art-based workshops for high-performers — practical, science-aligned, and transformative.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          {/* Hidden for now - 15 min call & 60s game buttons */}
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="[CALENDLY_LINK]"
               target="_blank"
@@ -49,7 +50,7 @@ export default function Hero() {
           </div>
           <p className="text-sm text-gray-600 mt-4 italic">
             15 minutes, zero sales pressure. We diagnose, you decide.
-          </p>
+          </p> */}
         </div>
 
         <div className="flex justify-center md:justify-end fade-in-delayed">
