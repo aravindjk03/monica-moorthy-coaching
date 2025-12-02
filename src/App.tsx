@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingButton from './components/FloatingButton';
 import CookieConsent from './components/CookieConsent';
+import WorkshopNotification from './components/WorkshopNotification';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       <Hero />
       <Stats />
       <About />
-      <Offerings />
       <SignatureWorkshop />
+      <Offerings />
       <MicroGames />
       <Testimonials />
       <Resources />
@@ -28,6 +29,7 @@ function App() {
       <Footer />
       <FloatingButton />
       <CookieConsent />
+      <WorkshopNotification />
     </div>
   );
 }

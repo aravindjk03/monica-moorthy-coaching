@@ -22,8 +22,8 @@ export default function Stats() {
   }, []);
 
   const stats = [
-    { value: 8, label: 'Years Coaching', suffix: '+' },
-    { value: 120, label: 'Workshops Delivered', suffix: '+' },
+    { value: 2, label: 'Years Coaching', suffix: '+' },
+    { value: 20, label: 'Workshops Delivered', suffix: '+' },
     { value: 87, label: 'Avg Improvement Score', suffix: '%' },
   ];
 

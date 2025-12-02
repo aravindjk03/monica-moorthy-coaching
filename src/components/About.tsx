@@ -15,19 +15,37 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="fade-in">
+          <div className="fade-in order-2 md:order-1">
+            <div className="mb-8 flex justify-center md:hidden">
+              <div className="w-48 h-48 rounded-2xl overflow-hidden border-4 border-[#2E8F8F] shadow-xl">
+                <img
+                  src="/monica-moorthy-coaching/images/monica.jpg"
+                  alt="Monica Moorthy - NLP Trainer & Psychology Coach"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+            </div>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               I'm an NLP trainer and psychology coach who helps high-performers break stress patterns and build sustainable mental agility. My approach combines Neuro-Linguistic Programming, behavioral design, and evidence-based techniques to create short, repeatable practices that change behavior.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              After eight years coaching leaders, entrepreneurs, and corporate teams, I've learned that lasting change doesn't require months of therapy. It requires the right tools, practiced consistently, in the right context. My workshops and 1:1 sessions focus on fast intervention, measurable outcomes, and techniques you can apply immediately.
+              After 2+ years coaching leaders, entrepreneurs, and corporate teams, I've learned that lasting change doesn't require months of therapy. It requires the right tools, practiced consistently, in the right context. My workshops and 1:1 sessions focus on fast intervention, measurable outcomes, and techniques you can apply immediately.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               I hold certifications in NLP Master Practitioner, Applied Psychology, and Mindfulness-Based Stress Reduction. My clients include executives at Fortune 500 companies, creative professionals, and startup founders who need to perform under pressure without burning out.
             </p>
           </div>
 
-          <div className="space-y-6 fade-in-delayed">
+          <div className="space-y-6 fade-in-delayed order-1 md:order-2">
+            <div className="hidden md:block mb-8">
+              <div className="w-full max-w-md mx-auto rounded-2xl overflow-hidden border-4 border-[#2E8F8F] shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1">
+                <img
+                  src="/monica-moorthy-coaching/images/monica.jpg"
+                  alt="Monica Moorthy - NLP Trainer & Psychology Coach"
+                  className="w-full h-auto object-cover object-center"
+                />
+              </div>
+            </div>
             <div className="bg-[#F5EBDD]/30 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
               <Brain className="text-[#2E8F8F] mb-4" size={40} />
               <h3 className="text-xl font-semibold text-[#222222] mb-2">NLP & Neuroscience</h3>
