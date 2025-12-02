@@ -28,7 +28,7 @@ export default function Stats() {
   ];
 
   return (
-    <section ref={sectionRef} className="py-16 bg-gradient-to-r from-[#8B5CF6] via-[#A855F7] to-[#EC4899]">
+    <section ref={sectionRef} className="py-16 bg-gradient-to-r from-[#FF6B6B] via-[#FF8E53] to-[#FE6B8B]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {stats.map((stat, index) => (

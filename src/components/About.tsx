@@ -11,13 +11,13 @@ export default function About() {
           >
             About
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-[#FF6B6B] to-[#FE6B8B] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in order-2 md:order-1">
             <div className="mb-8 flex justify-center md:hidden">
-              <div className="w-48 h-48 rounded-2xl overflow-hidden border-4 border-[#A855F7] shadow-xl">
+              <div className="w-48 h-48 rounded-2xl overflow-hidden border-4 border-[#FF8E53] shadow-xl">
                 <img
                   src="/monica-moorthy-coaching/images/monica.jpg"
                   alt="Monica Moorthy - NLP Trainer & Psychology Coach"
@@ -38,7 +38,7 @@ export default function About() {
 
           <div className="space-y-6 fade-in-delayed order-1 md:order-2">
             <div className="hidden md:block mb-8">
-              <div className="w-full max-w-md mx-auto rounded-2xl overflow-hidden border-4 border-[#A855F7] shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1">
+              <div className="w-full max-w-md mx-auto rounded-2xl overflow-hidden border-4 border-[#FF8E53] shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1">
                 <img
                   src="/monica-moorthy-coaching/images/monica.jpg"
                   alt="Monica Moorthy - NLP Trainer & Psychology Coach"
@@ -46,24 +46,24 @@ export default function About() {
                 />
               </div>
             </div>
-            <div className="bg-gradient-to-br from-[#F3E8FF] to-[#FCE7F3] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <Brain className="text-[#8B5CF6] mb-4" size={40} />
+            <div className="bg-gradient-to-br from-[#FFE5E5] to-[#FFF0E5] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Brain className="text-[#FF6B6B] mb-4" size={40} />
               <h3 className="text-xl font-semibold text-[#222222] mb-2">NLP & Neuroscience</h3>
               <p className="text-gray-700">
                 Applying brain science to rewrite limiting beliefs and install empowering patterns that stick.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#F3E8FF] to-[#FCE7F3] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <Heart className="text-[#EC4899] mb-4" size={40} />
+            <div className="bg-gradient-to-br from-[#FFE5E5] to-[#FFF0E5] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Heart className="text-[#FE6B8B] mb-4" size={40} />
               <h3 className="text-xl font-semibold text-[#222222] mb-2">Experiential Learning</h3>
               <p className="text-gray-700">
                 Hands-on exercises and micro-practices you can use immediately — no theory overload.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#F3E8FF] to-[#FCE7F3] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <Zap className="text-[#A855F7] mb-4" size={40} />
+            <div className="bg-gradient-to-br from-[#FFE5E5] to-[#FFF0E5] rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Zap className="text-[#FF8E53] mb-4" size={40} />
               <h3 className="text-xl font-semibold text-[#222222] mb-2">Fast Intervention</h3>
               <p className="text-gray-700">
                 Designed for busy professionals: efficient sessions that create lasting shifts in weeks, not years.
@@ -73,7 +73,7 @@ export default function About() {
         </div>
 
         <div className="mt-12 text-center fade-in">
-          <blockquote className="text-xl italic text-gray-700 border-l-4 border-[#A855F7] pl-6 py-2 inline-block text-left max-w-3xl">
+          <blockquote className="text-xl italic text-gray-700 border-l-4 border-[#FF8E53] pl-6 py-2 inline-block text-left max-w-3xl">
             "I blend NLP, behavioral design, and evidence-based techniques to create short, repeatable practices that change behavior."
           </blockquote>
         </div>

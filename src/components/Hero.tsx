@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 px-4 overflow-hidden bg-gradient-to-b from-[#F3E8FF]/40 via-[#FCE7F3]/30 to-white">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 px-4 overflow-hidden bg-gradient-to-b from-[#FFE5E5]/50 via-[#FFF0E5]/40 to-white">
       <div className="absolute inset-0 pointer-events-none">
         <div className="breathing-rings absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <div className="ring ring-1"></div>
@@ -56,9 +56,9 @@ export default function Hero() {
 
         <div className="flex justify-center md:justify-end fade-in-delayed">
           <div className="relative">
-            <div className="w-80 h-80 bg-gradient-to-br from-[#8B5CF6] via-[#A855F7] to-[#EC4899] rounded-3xl shadow-2xl p-8 flex flex-col justify-end hover:scale-105 transition-transform duration-500">
+            <div className="w-80 h-80 bg-gradient-to-br from-[#FF6B6B] via-[#FF8E53] to-[#FE6B8B] rounded-3xl shadow-2xl p-8 flex flex-col justify-end hover:scale-105 transition-transform duration-500">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <div className="w-48 h-48 rounded-full mx-auto mb-4 overflow-hidden border-4 border-[#FCE7F3] shadow-xl">
+                <div className="w-48 h-48 rounded-full mx-auto mb-4 overflow-hidden border-4 border-[#FFE5E5] shadow-xl">
                   <img
                     src="/monica-moorthy-coaching/images/monica.jpg"
                     alt="Monica Moorthy - NLP Trainer & Psychology Coach"

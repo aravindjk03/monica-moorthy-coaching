@@ -2,7 +2,7 @@ import { Clock, Target, Award, ArrowRight, MapPin, Calendar, Users, Palette, Mus
 
 export default function SignatureWorkshop() {
   return (
-    <section id="signature-workshop" className="py-20 bg-gradient-to-br from-[#8B5CF6] via-[#A855F7] to-[#EC4899] text-white">
+    <section id="signature-workshop" className="py-20 bg-gradient-to-br from-[#FF6B6B] via-[#FF8E53] to-[#FE6B8B] text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 fade-in">
           <h2
@@ -11,14 +11,14 @@ export default function SignatureWorkshop() {
           >
             Signature Workshop: Holistic De-stress and Rejuvenation
           </h2>
-          <p className="text-xl font-semibold text-[#FCE7F3] mb-2">
+          <p className="text-xl font-semibold text-[#FFE5E5] mb-2">
             A Two-Day Transformational Workshop for Mind–Body Renewal (Residential)
           </p>
-          <div className="w-20 h-1 bg-[#FCE7F3] mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-[#FFE5E5] mx-auto rounded-full"></div>
           <p className="text-white mt-6 text-lg max-w-3xl mx-auto italic">
             Step away from stress. Step into self-expression.
           </p>
-          <p className="text-[#FCE7F3] mt-4 text-lg max-w-3xl mx-auto">
+          <p className="text-[#FFE5E5] mt-4 text-lg max-w-3xl mx-auto">
             This two-day inbound and outbound experiential workshop blends science and creativity to help participants release stress, restore balance, and reconnect with inner calm. Through neuroscience, expressive arts, movement, relaxation methods, and NLP, participants learn how to reset the mind and body from within.
           </p>
         </div>
@@ -28,19 +28,19 @@ export default function SignatureWorkshop() {
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
             <Calendar className="mx-auto mb-3" size={32} />
             <h4 className="font-bold text-lg mb-2">Workshop Dates</h4>
-            <p className="text-[#FCE7F3]">December 20th & 21st, 2025</p>
+            <p className="text-[#FFE5E5]">December 20th & 21st, 2025</p>
             <p className="text-sm mt-1">9:30 AM – 4:30 PM</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
             <MapPin className="mx-auto mb-3" size={32} />
             <h4 className="font-bold text-lg mb-2">Venue</h4>
-            <p className="text-[#FCE7F3]">Claret Nivas Retreat Center</p>
+            <p className="text-[#FFE5E5]">Claret Nivas Retreat Center</p>
             <p className="text-sm mt-1">Sarjapur – Marathahalli Road, Bengaluru</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
             <Users className="mx-auto mb-3" size={32} />
             <h4 className="font-bold text-lg mb-2">Special Event</h4>
-            <p className="text-[#FCE7F3]">Campfire / Dance Party</p>
+            <p className="text-[#FFE5E5]">Campfire / Dance Party</p>
             <p className="text-sm mt-1">December 20th, 6:00 PM – 7:00 PM</p>
           </div>
         </div>
@@ -103,9 +103,9 @@ export default function SignatureWorkshop() {
                   className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300"
                 >
                   <div className="flex items-start">
-                    <IconComponent className="mr-4 flex-shrink-0 text-[#F5EBDD]" size={28} />
+                    <IconComponent className="mr-4 flex-shrink-0 text-[#FFE5E5]" size={28} />
                     <div>
-                      <h4 className="text-xl font-bold mb-3 text-[#F5EBDD]">{highlight.title}</h4>
+                      <h4 className="text-xl font-bold mb-3 text-[#FFE5E5]">{highlight.title}</h4>
                       <p className="text-white/90">{highlight.description}</p>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export default function SignatureWorkshop() {
                 'Leave with a personal de-stress toolkit to maintain calm beyond the workshop',
               ].map((outcome, idx) => (
                 <li key={idx} className="flex items-start">
-                  <span className="text-[#FCE7F3] mr-3 mt-1 text-xl">✓</span>
+                  <span className="text-[#FFE5E5] mr-3 mt-1 text-xl">✓</span>
                   <span className="text-white/90">{outcome}</span>
                 </li>
               ))}
@@ -163,13 +163,13 @@ export default function SignatureWorkshop() {
         <div className="mb-12 fade-in">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-3xl mx-auto">
             <div className="flex items-start">
-              <Award className="mr-4 flex-shrink-0 text-[#FCE7F3]" size={32} />
+              <Award className="mr-4 flex-shrink-0 text-[#FFE5E5]" size={32} />
               <div>
                 <h3 className="text-2xl font-bold mb-4">Testimonials & Feedback</h3>
                 <p className="italic text-white/90 text-lg">
                   Hear what participants have to say about their transformational experiences.
                 </p>
-                <p className="text-[#FCE7F3] mt-3">Video testimonials available upon request.</p>
+                <p className="text-[#FFE5E5] mt-3">Video testimonials available upon request.</p>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function SignatureWorkshop() {
 
         {/* Tagline */}
         <div className="text-center mb-12 fade-in">
-          <p className="text-2xl md:text-3xl font-bold text-[#FCE7F3] italic">
+          <p className="text-2xl md:text-3xl font-bold text-[#FFE5E5] italic">
             Relax. Reflect. Rewire. Reconnect.
           </p>
           <p className="text-lg mt-3 text-white/90">
@@ -191,17 +191,17 @@ export default function SignatureWorkshop() {
             href="https://in.bookmyshow.com/events/2-days-holistic-de-stress-workshop-residential/ET00471062"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-10 py-4 bg-white text-[#8B5CF6] rounded-full font-semibold hover:bg-[#FCE7F3] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="inline-flex items-center justify-center px-10 py-4 bg-white text-[#FF6B6B] rounded-full font-semibold hover:bg-[#FFE5E5] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Book Now on BookMyShow
             <ArrowRight className="ml-2" size={20} />
           </a>
-          <p className="text-[#FCE7F3] text-sm mt-4">
+          <p className="text-[#FFE5E5] text-sm mt-4">
             Inclusive of food, accommodation, and materials • Secure online booking
           </p>
           <div className="mt-6 text-sm">
             <p>For Clarifications:</p>
-            <p className="text-[#FCE7F3] font-semibold">
+            <p className="text-[#FFE5E5] font-semibold">
               Email: monicamoorthy@gmail.com | Phone: +91 9894190664
             </p>
           </div>
