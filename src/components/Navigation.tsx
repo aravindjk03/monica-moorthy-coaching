@@ -43,7 +43,7 @@ export default function Navigation() {
           <a
             href="#hero"
             onClick={(e) => scrollToSection(e, '#hero')}
-            className="text-xl font-semibold text-[#222222] hover:text-[#2E8F8F] transition-colors"
+            className="text-xl font-semibold text-[#222222] hover:text-[#FF6B6B] transition-colors"
             style={{ fontFamily: 'Playfair Display, serif' }}
           >
             Monica Moorthy
@@ -55,7 +55,7 @@ export default function Navigation() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => scrollToSection(e, link.href)}
-                className="text-sm text-[#222222] hover:text-[#2E8F8F] transition-colors font-medium"
+                className="text-sm text-[#222222] hover:text-[#FF6B6B] transition-colors font-medium"
               >
                 {link.label}
               </a>
@@ -64,7 +64,7 @@ export default function Navigation() {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-[#222222] hover:text-[#2E8F8F] transition-colors"
+            className="md:hidden text-[#222222] hover:text-[#FF6B6B] transition-colors"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -80,7 +80,7 @@ export default function Navigation() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => scrollToSection(e, link.href)}
-                className="block text-[#222222] hover:text-[#2E8F8F] transition-colors font-medium"
+                className="block text-[#222222] hover:text-[#FF6B6B] transition-colors font-medium"
               >
                 {link.label}
               </a>

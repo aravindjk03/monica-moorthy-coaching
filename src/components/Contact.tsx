@@ -32,7 +32,7 @@ export default function Contact() {
           >
             Get In Touch
           </h2>
-          <div className="w-20 h-1 bg-[#2E8F8F] mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Ready to start your transformation? Have questions about workshops or coaching? Let's talk.
           </p>
@@ -52,7 +52,7 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                     placeholder="Full name"
                   />
                 </div>
@@ -67,7 +67,7 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                     id="interest"
                     value={formData.interest}
                     onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                   >
                     <option value="coaching">1:1 Coaching</option>
                     <option value="workshop">Corporate Workshop</option>
@@ -100,14 +100,14 @@ export default function Contact() {
                     rows={6}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors resize-none"
                     placeholder="Tell me about your goals, challenges, or questions..."
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full flex items-center justify-center px-8 py-4 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                  className="w-full flex items-center justify-center px-8 py-4 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                 >
                   <Send className="mr-2" size={20} />
                   Send Message
@@ -130,7 +130,7 @@ export default function Contact() {
             <p className="text-gray-600 mb-4">Or reach me directly:</p>
             <a
               href="mailto:hello@example.com"
-              className="inline-flex items-center text-[#2E8F8F] hover:text-[#257070] font-semibold transition-colors"
+              className="inline-flex items-center text-[#FF6B6B] hover:text-[#FF8E53] font-semibold transition-colors"
             >
               <Mail className="mr-2" size={20} />
               hello@example.com

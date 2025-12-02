@@ -17,7 +17,7 @@ export default function FloatingButton() {
     <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-2">
       <button
         onClick={handleClick}
-        className="group bg-[#2E8F8F] text-white rounded-full p-4 shadow-2xl hover:bg-[#257070] transition-all duration-300 hover:scale-110 animate-pulse-slow"
+        className="group bg-[#FF6B6B] text-white rounded-full p-4 shadow-2xl hover:bg-[#FF8E53] transition-all duration-300 hover:scale-110 animate-pulse-slow"
         aria-label="Try 60s calm practice"
       >
         <div className="flex items-center gap-2">

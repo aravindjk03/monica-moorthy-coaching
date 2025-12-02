@@ -65,7 +65,7 @@ export default function BreathAnchor() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#2E8F8F]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
+    <div className="bg-gradient-to-br from-[#FF6B6B]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
       <h3 className="text-2xl font-bold text-[#222222] mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
         60s Breath Anchor
       </h3>
@@ -76,17 +76,17 @@ export default function BreathAnchor() {
       <div className="flex flex-col items-center justify-center min-h-[400px] relative">
         <div className="relative w-64 h-64 flex items-center justify-center mb-8">
           <div
-            className={`absolute inset-0 rounded-full bg-gradient-to-br from-[#2E8F8F] to-[#257070] transition-transform duration-[4000ms] ease-in-out ${
+            className={`absolute inset-0 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] transition-transform duration-[4000ms] ease-in-out ${
               isPlaying ? circleScale[phase] : 'scale-75'
             } opacity-20`}
           ></div>
           <div
-            className={`absolute inset-8 rounded-full bg-gradient-to-br from-[#2E8F8F] to-[#257070] transition-transform duration-[4000ms] ease-in-out ${
+            className={`absolute inset-8 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] transition-transform duration-[4000ms] ease-in-out ${
               isPlaying ? circleScale[phase] : 'scale-75'
             } opacity-40`}
           ></div>
           <div
-            className={`absolute inset-16 rounded-full bg-gradient-to-br from-[#2E8F8F] to-[#257070] transition-transform duration-[4000ms] ease-in-out ${
+            className={`absolute inset-16 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] transition-transform duration-[4000ms] ease-in-out ${
               isPlaying ? circleScale[phase] : 'scale-75'
             } flex items-center justify-center`}
           >
@@ -101,7 +101,7 @@ export default function BreathAnchor() {
 
         <button
           onClick={handleToggle}
-          className="flex items-center justify-center px-8 py-4 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300 shadow-lg hover:shadow-xl mb-4"
+          className="flex items-center justify-center px-8 py-4 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300 shadow-lg hover:shadow-xl mb-4"
         >
           {isPlaying ? (
             <>
@@ -117,7 +117,7 @@ export default function BreathAnchor() {
         </button>
 
         <button
-          className="flex items-center justify-center px-6 py-2 text-[#2E8F8F] hover:text-[#257070] transition-colors text-sm"
+          className="flex items-center justify-center px-6 py-2 text-[#FF6B6B] hover:text-[#FF8E53] transition-colors text-sm"
           onClick={() => alert('Download feature: Connect to audio file hosting')}
         >
           <Download className="mr-2" size={16} />

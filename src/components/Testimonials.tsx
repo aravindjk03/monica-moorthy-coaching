@@ -64,12 +64,12 @@ export default function Testimonials() {
           >
             What People Say
           </h2>
-          <div className="w-20 h-1 bg-[#2E8F8F] mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative bg-white rounded-3xl p-8 md:p-12 shadow-xl fade-in">
-            <Quote className="absolute top-6 left-6 text-[#2E8F8F]/20" size={60} />
+            <Quote className="absolute top-6 left-6 text-[#FF6B6B]/20" size={60} />
 
             <div className="relative z-10">
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 italic">
@@ -78,7 +78,7 @@ export default function Testimonials() {
 
               <div className="border-t border-gray-200 pt-6">
                 <p className="font-bold text-[#222222] text-lg">{current.name}</p>
-                <p className="text-[#2E8F8F] font-semibold">{current.role}</p>
+                <p className="text-[#FF6B6B] font-semibold">{current.role}</p>
                 <p className="text-gray-600 text-sm">{current.company}</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Testimonials() {
             <div className="flex items-center justify-between mt-8">
               <button
                 onClick={handlePrev}
-                className="p-3 rounded-full bg-[#F5EBDD] hover:bg-[#2E8F8F] hover:text-white transition-all duration-300"
+                className="p-3 rounded-full bg-[#F5EBDD] hover:bg-[#FF6B6B] hover:text-white transition-all duration-300"
                 aria-label="Previous testimonial"
               >
                 <ChevronLeft size={24} />
@@ -101,7 +101,7 @@ export default function Testimonials() {
                       setIsAutoPlaying(false);
                     }}
                     className={`h-2 rounded-full transition-all duration-300 ${
-                      index === currentIndex ? 'w-8 bg-[#2E8F8F]' : 'w-2 bg-gray-300'
+                      index === currentIndex ? 'w-8 bg-[#FF6B6B]' : 'w-2 bg-gray-300'
                     }`}
                     aria-label={`Go to testimonial ${index + 1}`}
                   />
@@ -110,7 +110,7 @@ export default function Testimonials() {
 
               <button
                 onClick={handleNext}
-                className="p-3 rounded-full bg-[#F5EBDD] hover:bg-[#2E8F8F] hover:text-white transition-all duration-300"
+                className="p-3 rounded-full bg-[#F5EBDD] hover:bg-[#FF6B6B] hover:text-white transition-all duration-300"
                 aria-label="Next testimonial"
               >
                 <ChevronRight size={24} />
@@ -118,7 +118,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-[#2E8F8F] to-[#257070] rounded-3xl p-8 md:p-12 shadow-xl text-white fade-in-delayed">
+          <div className="bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] rounded-3xl p-8 md:p-12 shadow-xl text-white fade-in-delayed">
             <Video className="mb-6" size={48} />
             <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
               Video Testimonials
@@ -132,7 +132,7 @@ export default function Testimonials() {
                 <p className="text-sm text-white/80">Video testimonials coming soon</p>
               </div>
             </div>
-            <button className="w-full px-6 py-3 bg-white text-[#2E8F8F] rounded-full font-semibold hover:bg-[#F5EBDD] transition-all duration-300">
+            <button className="w-full px-6 py-3 bg-white text-[#FF6B6B] rounded-full font-semibold hover:bg-[#F5EBDD] transition-all duration-300">
               Watch More Stories
             </button>
           </div>

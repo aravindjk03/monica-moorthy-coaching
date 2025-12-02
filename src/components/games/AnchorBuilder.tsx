@@ -61,7 +61,7 @@ export default function AnchorBuilder() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#2E8F8F]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
+    <div className="bg-gradient-to-br from-[#FF6B6B]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
       <h3 className="text-2xl font-bold text-[#222222] mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
         Anchor & Trigger Builder
       </h3>
@@ -81,7 +81,7 @@ export default function AnchorBuilder() {
                 onClick={() => setSelectedImage(option.emoji)}
                 className={`p-4 rounded-xl border-2 transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 ${
                   selectedImage === option.emoji
-                    ? 'border-[#2E8F8F] bg-[#2E8F8F]/10'
+                    ? 'border-[#FF6B6B] bg-[#FF6B6B]/10'
                     : 'border-gray-200 bg-white'
                 }`}
               >
@@ -104,7 +104,7 @@ export default function AnchorBuilder() {
             onChange={(e) => setPhrase(e.target.value)}
             placeholder="e.g., I am calm and centered"
             maxLength={50}
-            className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+            className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
           />
           <p className="text-xs text-gray-600 mt-1">
             Keep it present-tense and positive (e.g., "I am..." not "I will...")
@@ -114,7 +114,7 @@ export default function AnchorBuilder() {
         <button
           onClick={handleSave}
           disabled={!selectedImage || !phrase.trim()}
-          className="w-full flex items-center justify-center px-6 py-3 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
+          className="w-full flex items-center justify-center px-6 py-3 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
         >
           <Save className="mr-2" size={20} />
           Save Anchor
@@ -141,7 +141,7 @@ export default function AnchorBuilder() {
                   <div className="flex gap-2">
                     <button
                       onClick={() => handleTrigger(anchor)}
-                      className="p-2 bg-[#2E8F8F] text-white rounded-lg hover:bg-[#257070] transition-colors"
+                      className="p-2 bg-[#FF6B6B] text-white rounded-lg hover:bg-[#FF8E53] transition-colors"
                       title="Trigger anchor"
                     >
                       <Zap size={20} />

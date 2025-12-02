@@ -34,12 +34,12 @@ export default function CookieConsent() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="flex items-start gap-4 flex-1">
-            <Cookie className="text-[#2E8F8F] flex-shrink-0 mt-1" size={24} />
+            <Cookie className="text-[#FF6B6B] flex-shrink-0 mt-1" size={24} />
             <div>
               <h3 className="font-bold text-[#222222] mb-2">Cookie Preferences</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 This site uses cookies to improve your experience. Essential cookies are required for basic functionality. Analytics cookies (optional) help us understand how you use the site.{' '}
-                <a href="#" className="text-[#2E8F8F] hover:underline">
+                <a href="#" className="text-[#FF6B6B] hover:underline">
                   Learn more
                 </a>
               </p>
@@ -55,7 +55,7 @@ export default function CookieConsent() {
             </button>
             <button
               onClick={handleAcceptAll}
-              className="px-6 py-2 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300 whitespace-nowrap"
+              className="px-6 py-2 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300 whitespace-nowrap"
             >
               Accept All
             </button>

@@ -22,7 +22,7 @@ export default function Footer() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-[#2E8F8F] transition-all duration-300"
+                className="p-2 bg-white/10 rounded-lg hover:bg-[#FF6B6B] transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
@@ -31,7 +31,7 @@ export default function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-[#2E8F8F] transition-all duration-300"
+                className="p-2 bg-white/10 rounded-lg hover:bg-[#FF6B6B] transition-all duration-300"
                 aria-label="Twitter"
               >
                 <Twitter size={20} />
@@ -40,14 +40,14 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white/10 rounded-lg hover:bg-[#2E8F8F] transition-all duration-300"
+                className="p-2 bg-white/10 rounded-lg hover:bg-[#FF6B6B] transition-all duration-300"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="mailto:hello@example.com"
-                className="p-2 bg-white/10 rounded-lg hover:bg-[#2E8F8F] transition-all duration-300"
+                className="p-2 bg-white/10 rounded-lg hover:bg-[#FF6B6B] transition-all duration-300"
                 aria-label="Email"
               >
                 <Mail size={20} />
@@ -69,7 +69,7 @@ export default function Footer() {
                         section.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="text-gray-400 hover:text-[#2E8F8F] transition-colors"
+                    className="text-gray-400 hover:text-[#FF6B6B] transition-colors"
                   >
                     {link}
                   </a>
@@ -82,17 +82,17 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-[#2E8F8F] transition-colors">
+                <a href="#" className="text-gray-400 hover:text-[#FF6B6B] transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-[#2E8F8F] transition-colors">
+                <a href="#" className="text-gray-400 hover:text-[#FF6B6B] transition-colors">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-[#2E8F8F] transition-colors">
+                <a href="#" className="text-gray-400 hover:text-[#FF6B6B] transition-colors">
                   Cookie Policy
                 </a>
               </li>

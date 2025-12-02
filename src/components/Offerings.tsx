@@ -47,7 +47,7 @@ export default function Offerings() {
           >
             Work With Me
           </h2>
-          <div className="w-20 h-1 bg-[#2E8F8F] mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -57,7 +57,7 @@ export default function Offerings() {
               className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-[#2E8F8F] mb-6">{offering.icon}</div>
+              <div className="text-[#FF6B6B] mb-6">{offering.icon}</div>
 
               <h3
                 className="text-2xl font-bold text-[#222222] mb-3"
@@ -66,14 +66,14 @@ export default function Offerings() {
                 {offering.title}
               </h3>
 
-              <p className="text-[#2E8F8F] font-semibold mb-6 text-lg">
+              <p className="text-[#FF6B6B] font-semibold mb-6 text-lg">
                 {offering.outcome}
               </p>
 
               <ul className="space-y-3 mb-8">
                 {offering.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start text-gray-700">
-                    <span className="text-[#2E8F8F] mr-2 mt-1">•</span>
+                    <span className="text-[#FF6B6B] mr-2 mt-1">•</span>
                     <span>{feature}</span>
                   </li>
                 ))}
@@ -87,7 +87,7 @@ export default function Offerings() {
                     e.preventDefault();
                     document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300"
+                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300"
                 >
                   Enquire
                   <ArrowRight className="ml-2" size={18} />

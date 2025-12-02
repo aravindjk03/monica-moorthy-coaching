@@ -22,7 +22,7 @@ export default function MicroGames() {
           >
             Try NLP Techniques Now
           </h2>
-          <div className="w-20 h-1 bg-[#2E8F8F] mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             Experience three interactive micro-games that demonstrate real NLP techniques. Each takes less than 5 minutes and shows you how simple practices create lasting change.
           </p>
@@ -35,8 +35,8 @@ export default function MicroGames() {
               onClick={() => setActiveGame(game.id)}
               className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                 activeGame === game.id
-                  ? 'bg-[#2E8F8F] text-white shadow-lg'
-                  : 'bg-white text-[#222222] border-2 border-gray-200 hover:border-[#2E8F8F]'
+                  ? 'bg-[#FF6B6B] text-white shadow-lg'
+                  : 'bg-white text-[#222222] border-2 border-gray-200 hover:border-[#FF6B6B]'
               }`}
             >
               <div className="font-semibold">{game.label}</div>

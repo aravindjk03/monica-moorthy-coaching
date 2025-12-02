@@ -31,12 +31,12 @@ export default function Resources() {
           >
             Free Resources
           </h2>
-          <div className="w-20 h-1 bg-[#2E8F8F] mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
-            <div className="bg-gradient-to-br from-[#2E8F8F] to-[#257070] rounded-3xl p-8 text-white shadow-2xl">
+            <div className="bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] rounded-3xl p-8 text-white shadow-2xl">
               <Download className="mb-6" size={48} />
               <h3 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
                 7-Day Mind Reset
@@ -71,7 +71,7 @@ export default function Resources() {
             {!isSubmitted ? (
               <form onSubmit={handleSubmit} className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
                 <div className="mb-6">
-                  <Mail className="text-[#2E8F8F] mb-4" size={40} />
+                  <Mail className="text-[#FF6B6B] mb-4" size={40} />
                   <h3 className="text-2xl font-bold text-[#222222] mb-2">
                     Get Your Free Reset Kit
                   </h3>
@@ -91,7 +91,7 @@ export default function Resources() {
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                       placeholder="Your name"
                     />
                   </div>
@@ -106,7 +106,7 @@ export default function Resources() {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -120,14 +120,14 @@ export default function Resources() {
                       type="text"
                       value={formData.organization}
                       onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#2E8F8F] focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#FF6B6B] focus:outline-none transition-colors"
                       placeholder="Your company or org"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full px-8 py-4 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                    className="w-full px-8 py-4 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                   >
                     Get Instant Access
                   </button>

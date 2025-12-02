@@ -111,13 +111,13 @@ export default function ReframeSprint() {
 
   if (isComplete) {
     return (
-      <div className="bg-gradient-to-br from-[#2E8F8F]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
+      <div className="bg-gradient-to-br from-[#FF6B6B]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
         <div className="text-center">
-          <Award className="w-20 h-20 text-[#2E8F8F] mx-auto mb-6 animate-bounce" />
+          <Award className="w-20 h-20 text-[#FF6B6B] mx-auto mb-6 animate-bounce" />
           <h3 className="text-3xl font-bold text-[#222222] mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
             Complete!
           </h3>
-          <p className="text-5xl font-bold text-[#2E8F8F] mb-4">
+          <p className="text-5xl font-bold text-[#FF6B6B] mb-4">
             {score} / {scenarios.length}
           </p>
           <p className="text-lg text-gray-700 mb-8">
@@ -130,14 +130,14 @@ export default function ReframeSprint() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={handleReset}
-              className="flex items-center justify-center px-6 py-3 bg-[#2E8F8F] text-white rounded-full font-semibold hover:bg-[#257070] transition-all duration-300"
+              className="flex items-center justify-center px-6 py-3 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300"
             >
               <RefreshCw className="mr-2" size={20} />
               Try Again
             </button>
             <button
               onClick={handleShare}
-              className="flex items-center justify-center px-6 py-3 bg-white text-[#2E8F8F] border-2 border-[#2E8F8F] rounded-full font-semibold hover:bg-[#2E8F8F] hover:text-white transition-all duration-300"
+              className="flex items-center justify-center px-6 py-3 bg-white text-[#FF6B6B] border-2 border-[#FF6B6B] rounded-full font-semibold hover:bg-[#FF6B6B] hover:text-white transition-all duration-300"
             >
               <Share2 className="mr-2" size={20} />
               Share Score
@@ -149,7 +149,7 @@ export default function ReframeSprint() {
   }
 
   return (
-    <div className="bg-gradient-to-br from-[#2E8F8F]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
+    <div className="bg-gradient-to-br from-[#FF6B6B]/10 to-[#F5EBDD]/30 rounded-3xl p-8 shadow-lg">
       <h3 className="text-2xl font-bold text-[#222222] mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
         Reframe Sprint
       </h3>
@@ -162,13 +162,13 @@ export default function ReframeSprint() {
           <span className="text-sm font-semibold text-gray-600">
             Question {currentIndex + 1} of {scenarios.length}
           </span>
-          <span className="text-sm font-semibold text-[#2E8F8F]">
+          <span className="text-sm font-semibold text-[#FF6B6B]">
             Score: {score}
           </span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
           <div
-            className="bg-[#2E8F8F] h-2 rounded-full transition-all duration-500"
+            className="bg-[#FF6B6B] h-2 rounded-full transition-all duration-500"
             style={{ width: `${((currentIndex + 1) / scenarios.length) * 100}%` }}
           ></div>
         </div>
