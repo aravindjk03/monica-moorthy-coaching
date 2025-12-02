@@ -32,7 +32,7 @@ export default function About() {
               With 5+ years of training experience and 7+ years of corporate experience, I've trained several individuals and coached them on a spectrum of areas. I've learned that lasting change doesn't require months of therapy. It requires the right tools, practiced consistently, in the right context. My workshops and 1:1 sessions focus on fast intervention, measurable outcomes, and techniques you can apply immediately.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              I hold certifications in NLP Master Practitioner, Expressive Arts Practitioner, Applied Psychology, and Mindfulness-Based Stress Reduction. My clients are high performers in academics, corporates and wellness enthusiasts.
+              I hold certifications in NLP Master Practitioner, Expressive Arts Practitioner, Applied Psychology, and Mindfulness-Based Stress Reduction.
             </p>
           </div>
 
