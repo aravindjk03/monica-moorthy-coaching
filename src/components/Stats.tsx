@@ -22,13 +22,13 @@ export default function Stats() {
   }, []);
 
   const stats = [
-    { value: 2, label: 'Years Coaching', suffix: '+' },
-    { value: 20, label: 'Workshops Delivered', suffix: '+' },
+    { value: 5, label: 'Years of Training', suffix: '+' },
+    { value: 7, label: 'Years Corporate Experience', suffix: '+' },
     { value: 87, label: 'Avg Improvement Score', suffix: '%' },
   ];
 
   return (
-    <section ref={sectionRef} className="py-16 bg-[#2E8F8F]">
+    <section ref={sectionRef} className="py-16 bg-gradient-to-r from-[#8B5CF6] via-[#A855F7] to-[#EC4899]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {stats.map((stat, index) => (

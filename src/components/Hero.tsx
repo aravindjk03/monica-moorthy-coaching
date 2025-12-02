@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 px-4 overflow-hidden bg-gradient-to-b from-[#F5EBDD]/30 to-white">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 px-4 overflow-hidden bg-gradient-to-b from-[#F3E8FF]/40 via-[#FCE7F3]/30 to-white">
       <div className="absolute inset-0 pointer-events-none">
         <div className="breathing-rings absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <div className="ring ring-1"></div>
@@ -27,8 +27,9 @@ export default function Hero() {
             Train your mind. Reclaim calm. Get measurable change.
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-            NLP-based coaching & workshops for leaders, creators, and stressed professionals â" practical, science-aligned, and fast.
+            NLP-based coaching & workshops for high-performers and stressed professionals — practical, science-aligned, and fast.
           </p>
+          {/* Temporarily hidden - will be enabled later
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="[CALENDLY_LINK]"
@@ -50,13 +51,14 @@ export default function Hero() {
           <p className="text-sm text-gray-600 mt-4 italic">
             15 minutes, zero sales pressure. We diagnose, you decide.
           </p>
+          */}
         </div>
 
         <div className="flex justify-center md:justify-end fade-in-delayed">
           <div className="relative">
-            <div className="w-80 h-80 bg-gradient-to-br from-[#2E8F8F] to-[#257070] rounded-3xl shadow-2xl p-8 flex flex-col justify-end hover:scale-105 transition-transform duration-500">
+            <div className="w-80 h-80 bg-gradient-to-br from-[#8B5CF6] via-[#A855F7] to-[#EC4899] rounded-3xl shadow-2xl p-8 flex flex-col justify-end hover:scale-105 transition-transform duration-500">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <div className="w-48 h-48 rounded-full mx-auto mb-4 overflow-hidden border-4 border-[#F5EBDD] shadow-xl">
+                <div className="w-48 h-48 rounded-full mx-auto mb-4 overflow-hidden border-4 border-[#FCE7F3] shadow-xl">
                   <img
                     src="/monica-moorthy-coaching/images/monica.jpg"
                     alt="Monica Moorthy - NLP Trainer & Psychology Coach"
