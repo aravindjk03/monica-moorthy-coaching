@@ -25,34 +25,34 @@ export default function SignatureWorkshop() {
 
         {/* Workshop Details */}
         <div className="grid md:grid-cols-3 gap-6 mb-12 fade-in">
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-            <Calendar className="mx-auto mb-3" size={32} />
-            <h4 className="font-bold text-lg mb-2">Workshop Dates</h4>
-            <p className="text-[#FFE5E5]">December 20th & 21st, 2025</p>
-            <p className="text-sm mt-1">9:30 AM – 4:30 PM</p>
+          <div className="bg-white rounded-xl p-6 text-center shadow-lg">
+            <Calendar className="mx-auto mb-3 text-[#FF6B6B]" size={32} />
+            <h4 className="font-bold text-lg mb-2 text-gray-900">Workshop Dates</h4>
+            <p className="text-[#FF6B6B] font-semibold">December 20th & 21st, 2025</p>
+            <p className="text-sm mt-1 text-gray-700">9:30 AM – 4:30 PM</p>
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-            <MapPin className="mx-auto mb-3" size={32} />
-            <h4 className="font-bold text-lg mb-2">Venue</h4>
-            <p className="text-[#FFE5E5]">Claret Nivas Retreat Center</p>
-            <p className="text-sm mt-1">Sarjapur – Marathahalli Road, Bengaluru</p>
+          <div className="bg-white rounded-xl p-6 text-center shadow-lg">
+            <MapPin className="mx-auto mb-3 text-[#FF8E53]" size={32} />
+            <h4 className="font-bold text-lg mb-2 text-gray-900">Venue</h4>
+            <p className="text-[#FF8E53] font-semibold">Claret Nivas Retreat Center</p>
+            <p className="text-sm mt-1 text-gray-700">Sarjapur – Marathahalli Road, Bengaluru</p>
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-            <Users className="mx-auto mb-3" size={32} />
-            <h4 className="font-bold text-lg mb-2">Special Event</h4>
-            <p className="text-[#FFE5E5]">Campfire / Dance Party</p>
-            <p className="text-sm mt-1">December 20th, 6:00 PM – 7:00 PM</p>
+          <div className="bg-white rounded-xl p-6 text-center shadow-lg">
+            <Users className="mx-auto mb-3 text-[#FE6B8B]" size={32} />
+            <h4 className="font-bold text-lg mb-2 text-gray-900">Special Event</h4>
+            <p className="text-[#FE6B8B] font-semibold">Campfire / Dance Party</p>
+            <p className="text-sm mt-1 text-gray-700">December 20th, 6:00 PM – 7:00 PM</p>
           </div>
         </div>
 
         {/* The Neuroscience of Stress */}
         <div className="mb-12 fade-in">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-            <h3 className="text-3xl font-bold mb-4 flex items-center justify-center">
-              <Brain className="mr-3" size={32} />
+          <div className="bg-white rounded-2xl p-8 shadow-lg">
+            <h3 className="text-3xl font-bold mb-4 flex items-center justify-center text-gray-900">
+              <Brain className="mr-3 text-[#FF6B6B]" size={32} />
               The Neuroscience of Stress
             </h3>
-            <p className="text-white/90 text-lg">
+            <p className="text-gray-700 text-lg">
               Understand what happens in the brain and body when stress takes over — how the amygdala triggers fear, the prefrontal cortex shuts down, and the body holds tension. Through guided practices, participants learn how to regulate stress responses, activate relaxation pathways, and create new neural patterns of calm and confidence.
             </p>
           </div>
@@ -69,44 +69,68 @@ export default function SignatureWorkshop() {
                 icon: Palette,
                 title: 'Expressive Arts Therapy',
                 description: 'Use painting, drawing, and symbolic expression to release internal pressure and gain creative insight.',
+                bgClass: 'bg-white',
+                textClass: 'text-gray-700',
+                iconClass: 'text-[#FF6B6B]',
+                titleClass: 'text-gray-900'
               },
               {
                 icon: Music,
                 title: 'Creative Movement Therapy',
                 description: 'Use movement and rhythm to process emotions, build body awareness, and experience joy.',
+                bgClass: 'bg-white/20 backdrop-blur-sm',
+                textClass: 'text-white/95',
+                iconClass: 'text-white',
+                titleClass: 'text-white'
               },
               {
                 icon: Wind,
                 title: 'Relaxation Journeys',
                 description: 'Guided deep relaxation sessions to rewire subconscious stress loops and enable profound mind–body calm.',
+                bgClass: 'bg-white/20 backdrop-blur-sm',
+                textClass: 'text-white/95',
+                iconClass: 'text-white',
+                titleClass: 'text-white'
               },
               {
                 icon: Brain,
                 title: 'NLP-Based Techniques',
                 description: 'Learn reframing and language tools to shift negative thoughts and emotional responses.',
+                bgClass: 'bg-white',
+                textClass: 'text-gray-700',
+                iconClass: 'text-[#FF8E53]',
+                titleClass: 'text-gray-900'
               },
               {
                 icon: TreePine,
                 title: 'Mindfulness in Nature',
                 description: 'Outdoor grounding activities and reflection practices that connect participants with natural calm.',
+                bgClass: 'bg-white',
+                textClass: 'text-gray-700',
+                iconClass: 'text-[#FE6B8B]',
+                titleClass: 'text-gray-900'
               },
               {
                 icon: MessageCircle,
                 title: 'Sharing Circles & Guided Reflection',
                 description: 'Build connection, empathy, and insight through expressive sharing and structured reflection.',
+                bgClass: 'bg-white/20 backdrop-blur-sm',
+                textClass: 'text-white/95',
+                iconClass: 'text-white',
+                titleClass: 'text-white'
               },
             ].map((highlight, idx) => {
               const IconComponent = highlight.icon;
               return (
                 <div
                   key={idx}
-                  className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300"
+                  className={`${highlight.bgClass} rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}
                 >
                   <div className="flex items-start">
-                    <IconComponent className="mr-4 flex-shrink-0 text-[#FFE5E5]" size={28} />
+                    <IconComponent className={`mr-4 flex-shrink-0 ${highlight.iconClass}`} size={28} />
                     <div>
-                      <h4 className="text-xl font-bold mb-3 text-[#FFE5E5]">{highlight.title}</h4>
-                      <p className="text-white/90">{highlight.description}</p>
+                      <h4 className={`text-xl font-bold mb-3 ${highlight.titleClass}`}>{highlight.title}</h4>
+                      <p className={highlight.textClass}>{highlight.description}</p>
                     </div>
                   </div>
                 </div>
@@ -121,8 +145,8 @@ export default function SignatureWorkshop() {
             <Target className="mr-3" size={32} />
             Key Outcomes
           </h3>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-            <p className="text-lg mb-4">Participants will:</p>
+          <div className="bg-white rounded-2xl p-8 shadow-lg">
+            <p className="text-lg mb-4 text-gray-900 font-semibold">Participants will:</p>
             <ul className="grid md:grid-cols-2 gap-4">
               {[
                 'Understand the neuroscience of stress and regulate it consciously',
@@ -135,8 +159,8 @@ export default function SignatureWorkshop() {
                 'Leave with a personal de-stress toolkit to maintain calm beyond the workshop',
               ].map((outcome, idx) => (
                 <li key={idx} className="flex items-start">
-                  <span className="text-[#FFE5E5] mr-3 mt-1 text-xl">✓</span>
-                  <span className="text-white/90">{outcome}</span>
+                  <span className="text-[#FF6B6B] mr-3 mt-1 text-xl">✓</span>
+                  <span className="text-gray-700">{outcome}</span>
                 </li>
               ))}
             </ul>
