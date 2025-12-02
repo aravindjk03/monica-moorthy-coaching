@@ -1,4 +1,4 @@
-import { ArrowRight, Play } from 'lucide-react';
+﻿import { ArrowRight, Play } from 'lucide-react';
 
 export default function Hero() {
   const scrollToGames = () => {
@@ -27,7 +27,7 @@ export default function Hero() {
             Train your mind. Reclaim calm. Get measurable change.
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-            NLP-based coaching & workshops for leaders, creators, and stressed professionals — practical, science-aligned, and fast.
+            NLP-based coaching & workshops for leaders, creators, and stressed professionals â" practical, science-aligned, and fast.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
@@ -56,8 +56,12 @@ export default function Hero() {
           <div className="relative">
             <div className="w-80 h-80 bg-gradient-to-br from-[#2E8F8F] to-[#257070] rounded-3xl shadow-2xl p-8 flex flex-col justify-end hover:scale-105 transition-transform duration-500">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <div className="w-32 h-32 bg-[#F5EBDD] rounded-full mx-auto mb-4 flex items-center justify-center text-6xl">
-                  👤
+                <div className="w-48 h-48 rounded-full mx-auto mb-4 overflow-hidden border-4 border-[#F5EBDD] shadow-xl">
+                  <img
+                    src="/monica-moorthy-coaching/images/monica.jpg"
+                    alt="Monica Moorthy - NLP Trainer & Psychology Coach"
+                    className="w-full h-full object-cover object-center scale-110"
+                  />
                 </div>
                 <h3 className="text-white text-center font-semibold text-xl" style={{ fontFamily: 'Playfair Display, serif' }}>
                   Monica Moorthy
