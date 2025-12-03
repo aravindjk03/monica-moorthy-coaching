@@ -11,7 +11,6 @@ export default function Offerings() {
         'Weekly 60-minute deep-work sessions',
         'Practice audios and custom anchor exercises',
       ],
-      pricing: 'From $250/session',
     },
     {
       icon: <Users size={40} />,
@@ -22,7 +21,6 @@ export default function Offerings() {
         'Leadership Presence: Executive communication training',
         'Mental Agility: Decision-making under pressure',
       ],
-      pricing: 'Custom pricing for teams',
     },
     {
       icon: <BookOpen size={40} />,
@@ -33,7 +31,6 @@ export default function Offerings() {
         'Anchor Mastery Course: Build calm triggers in 14 days',
         'Lifetime access + community support',
       ],
-      pricing: 'From $97',
     },
   ];
 
@@ -80,13 +77,8 @@ export default function Offerings() {
               </ul>
 
               <div className="pt-6 border-t border-gray-200">
-                <p className="text-sm text-gray-600 mb-4">{offering.pricing}</p>
                 <a
-                  href="#contact"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
+                  href="mailto:monicamoorthy@gmail.com?subject=Enquiry about {offering.title}"
                   className="inline-flex items-center justify-center w-full px-6 py-3 bg-[#FF6B6B] text-white rounded-full font-semibold hover:bg-[#FF8E53] transition-all duration-300"
                 >
                   Enquire
