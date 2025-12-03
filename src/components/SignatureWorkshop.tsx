@@ -103,7 +103,6 @@ export default function SignatureWorkshop() {
                     </div>
                     <h4 className="text-xl font-bold mb-3 text-gray-900">{highlight.title}</h4>
                     <p className="text-gray-700 leading-relaxed">{highlight.description}</p>
-                    </div>
                   </div>
                 </div>
               );
