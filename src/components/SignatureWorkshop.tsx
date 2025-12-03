@@ -63,74 +63,46 @@ export default function SignatureWorkshop() {
           <h3 className="text-3xl font-bold mb-8 text-center fade-in">
             Workshop Highlights
           </h3>
-          <div className="grid md:grid-cols-2 gap-6 fade-in">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 fade-in">
             {[
               {
                 icon: Palette,
                 title: 'Expressive Arts Therapy',
                 description: 'Use painting, drawing, and symbolic expression to release internal pressure and gain creative insight.',
-                bgClass: 'bg-white',
-                textClass: 'text-gray-700',
-                iconClass: 'text-[#FF6B6B]',
-                titleClass: 'text-gray-900'
               },
               {
                 icon: Music,
                 title: 'Creative Movement Therapy',
                 description: 'Use movement and rhythm to process emotions, build body awareness, and experience joy.',
-                bgClass: 'bg-white/20 backdrop-blur-sm',
-                textClass: 'text-white/95',
-                iconClass: 'text-white',
-                titleClass: 'text-white'
               },
               {
                 icon: Wind,
                 title: 'Relaxation Journeys',
                 description: 'Guided deep relaxation sessions to rewire subconscious stress loops and enable profound mind–body calm.',
-                bgClass: 'bg-white/20 backdrop-blur-sm',
-                textClass: 'text-white/95',
-                iconClass: 'text-white',
-                titleClass: 'text-white'
-              },
-              {
-                icon: Brain,
-                title: 'NLP-Based Techniques',
-                description: 'Learn reframing and language tools to shift negative thoughts and emotional responses.',
-                bgClass: 'bg-white',
-                textClass: 'text-gray-700',
-                iconClass: 'text-[#FF8E53]',
-                titleClass: 'text-gray-900'
               },
               {
                 icon: TreePine,
                 title: 'Mindfulness in Nature',
                 description: 'Outdoor grounding activities and reflection practices that connect participants with natural calm.',
-                bgClass: 'bg-white',
-                textClass: 'text-gray-700',
-                iconClass: 'text-[#FE6B8B]',
-                titleClass: 'text-gray-900'
               },
               {
                 icon: MessageCircle,
                 title: 'Sharing Circles & Guided Reflection',
                 description: 'Build connection, empathy, and insight through expressive sharing and structured reflection.',
-                bgClass: 'bg-white/20 backdrop-blur-sm',
-                textClass: 'text-white/95',
-                iconClass: 'text-white',
-                titleClass: 'text-white'
               },
             ].map((highlight, idx) => {
               const IconComponent = highlight.icon;
               return (
                 <div
                   key={idx}
-                  className={`${highlight.bgClass} rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}
+                  className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-l-4 border-[#FF6B6B] group"
                 >
-                  <div className="flex items-start">
-                    <IconComponent className={`mr-4 flex-shrink-0 ${highlight.iconClass}`} size={28} />
-                    <div>
-                      <h4 className={`text-xl font-bold mb-3 ${highlight.titleClass}`}>{highlight.title}</h4>
-                      <p className={highlight.textClass}>{highlight.description}</p>
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <IconComponent className="text-white" size={32} />
+                    </div>
+                    <h4 className="text-xl font-bold mb-3 text-gray-900">{highlight.title}</h4>
+                    <p className="text-gray-700 leading-relaxed">{highlight.description}</p>
                     </div>
                   </div>
                 </div>
@@ -176,8 +148,8 @@ export default function SignatureWorkshop() {
               'Educators, therapists, and facilitators exploring creative healing tools',
               'Individuals seeking personal renewal, emotional clarity, and inner balance',
             ].map((audience, idx) => (
-              <div key={idx} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <p className="text-white/90">{audience}</p>
+              <div key={idx} className="bg-white rounded-xl p-6 text-center shadow-lg border-t-4 border-[#FF8E53]">
+                <p className="text-gray-800 font-medium">{audience}</p>
               </div>
             ))}
           </div>
@@ -185,15 +157,15 @@ export default function SignatureWorkshop() {
 
         {/* Testimonial */}
         <div className="mb-12 fade-in">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-3xl mx-auto">
+          <div className="bg-white rounded-2xl p-8 max-w-3xl mx-auto shadow-lg">
             <div className="flex items-start">
-              <Award className="mr-4 flex-shrink-0 text-[#FFE5E5]" size={32} />
+              <Award className="mr-4 flex-shrink-0 text-[#FF6B6B]" size={32} />
               <div>
-                <h3 className="text-2xl font-bold mb-4">Testimonials & Feedback</h3>
-                <p className="italic text-white/90 text-lg">
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Testimonials & Feedback</h3>
+                <p className="italic text-gray-700 text-lg">
                   Hear what participants have to say about their transformational experiences.
                 </p>
-                <p className="text-[#FFE5E5] mt-3">Video testimonials available upon request.</p>
+                <p className="text-[#FF6B6B] mt-3 font-semibold">Video testimonials available upon request.</p>
               </div>
             </div>
           </div>

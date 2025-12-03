@@ -59,8 +59,9 @@ export default function WorkshopNotification() {
                 className="text-2xl font-bold mb-2"
                 style={{ fontFamily: 'Playfair Display, serif' }}
               >
-                Upcoming Event
+                Holistic De-stress and Rejuvenation
               </h2>
+              <p className="text-sm text-white/90">Two-Day Residential Workshop</p>
             </div>
           </div>
 

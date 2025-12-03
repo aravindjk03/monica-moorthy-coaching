@@ -22,6 +22,8 @@ export default function Offerings() {
         'Mental Agility: Decision-making under pressure',
       ],
     },
+    // Hidden for now - Digital Programs
+    /*
     {
       icon: <BookOpen size={40} />,
       title: 'Digital Programs',
@@ -32,6 +34,7 @@ export default function Offerings() {
         'Lifetime access + community support',
       ],
     },
+    */
   ];
 
   return (
@@ -47,7 +50,7 @@ export default function Offerings() {
           <div className="w-20 h-1 bg-[#FF6B6B] mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {offerings.map((offering, index) => (
             <div
               key={index}
