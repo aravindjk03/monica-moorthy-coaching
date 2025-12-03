@@ -27,7 +27,7 @@ export default function Hero() {
             Train your mind. Reclaim calm. Get measurable change.
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-            NLP-based coaching and art-based workshops for high-performers — practical, science-aligned, and transformative.
+            NLP-based coaching and art-based workshops for high-performers â€” practical, science-aligned, and transformative.
           </p>
           {/* Hidden for now - 15 min call & 60s game buttons */}
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
