@@ -22,7 +22,8 @@ function App() {
       <About />
       <SignatureWorkshop />
       <Offerings />
-      <MicroGames />
+      {/* Hidden for now - MicroGames/NLP techniques section */}
+      {/* <MicroGames /> */}
       <Testimonials />
       <Resources />
       <Contact />
